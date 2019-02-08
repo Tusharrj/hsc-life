@@ -1,0 +1,38 @@
+#root {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.play-btn {
+  position: fixed;
+  top: 6rem;
+  right: 50%;
+  margin-right: -40px;
+  background: transparent;
+}
+
+.gyro-btn {
+  position: fixed;
+  bottom: 6rem;
+  right: 50%;
+  margin-right: -40px;
+  background: transparent;
+}
+
+canvas {
+  cursor: none;
+}
+@media only screen and (max-width: 412px )
+{
+
+
+}
+@media only screen and (max-width: 360px )
+{
+  .play-btn {
+    margin-right: -30px;
+  }
+  .gyro-btn {
+    margin-right: -30px;
+  }
+
+}
